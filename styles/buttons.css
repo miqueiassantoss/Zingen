@@ -14,7 +14,6 @@
 
   cursor: pointer;
 
-
   background: var(--btn-bg-color);
   color: var(--btn-color);
 }
@@ -27,8 +26,6 @@
   );
   --btn-color: var(--surface-color);
 }
-
-
 
 .btn-sm {
   padding: .5rem 1rem;

@@ -77,6 +77,21 @@ a {
   color: inherit;
 }
 
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+    /*isso aqui serviu pra colocar um background*/
+  );
+
+  /*isso aqui é pra fazer um recorte da cor de fundo e ai fica somente o texto*/
+  /*agora entendi melhor, o que acontece, é que essa formula pinta tudo, e ai depois a gente tira o background e deixa o texto transparente*/
+  --webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 ul [role=list] {
   list-style: none;
 }
