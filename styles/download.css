@@ -8,8 +8,7 @@
     position: absolute;
     bottom: 0;
     right: -3.5rem;
-  }
-
+    }
   }
 
   .buttons {
@@ -29,5 +28,4 @@
       }
     }
   }
-
 }

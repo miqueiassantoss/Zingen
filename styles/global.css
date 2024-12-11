@@ -13,7 +13,6 @@
   -moz-osx-font-smooth: grayscale;
 }
 
-
 :root {
   --bg-color: #09090B;
   --surface-color: #18181B;
@@ -38,7 +37,6 @@
   --py-lg: 1.5rem;
   --py-xl: 3rem;
   --px-lg: 1.5rem;
-
 }
 
 html {
@@ -48,12 +46,12 @@ html {
   line-height: 1.6;
   color: var(--text-color-primary);
   overflow-x: hidden;
-
   scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
